@@ -1,0 +1,42 @@
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Pytest
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Olist raw datasets
+data/*.csv
+
+# Generated ML models
+*.pkl
+
+# RAG generated files
+rag/embeddings.json
+rag/chroma_db/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Local development scripts
+explore_data.py
+test_ollama.py
